@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <?php
 include_once 'query.php';
-
+// teste versão github
 session_start();
 if (empty($_SESSION['pagina'])) {
     $_SESSION['pagina'] = "";
